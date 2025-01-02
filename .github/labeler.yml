@@ -1,0 +1,34 @@
+---
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: ["docs/**", "*.md"]
+tests:
+  - changed-files:
+      - any-glob-to-any-file: "tests/**"
+agents:
+  - changed-files:
+      - any-glob-to-any-file: "zytron/agents/**"
+artifacts:
+  - changed-files:
+      - any-glob-to-any-file: "zytron/artifacts/**"
+memory:
+  - changed-files:
+      - any-glob-to-any-file: "zytron/memory/**"
+models:
+  - changed-files:
+      - any-glob-to-any-file: "zytron/models/**"
+prompts:
+  - changed-files:
+      - any-glob-to-any-file: "zytron/prompts/**"
+structs:
+  - changed-files:
+      - any-glob-to-any-file: "zytron/structs/**"
+telemetry:
+  - changed-files:
+      - any-glob-to-any-file: "zytron/telemetry/**"
+tools:
+  - changed-files:
+      - any-glob-to-any-file: "zytron/tools/**"
+utils:
+  - changed-files:
+      - any-glob-to-any-file: "zytron/utils/**"
