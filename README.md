@@ -1,5 +1,5 @@
 
-# zytron-Example-1-Click-Template
+# Zytron-Example-1-Click-Template
 
 ## Quick Start
 
